@@ -1,0 +1,204 @@
+body {
+    background-image: url('imgs/picnic.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+#display {
+    position: relative;
+    text-align: center;
+    top: 425px;
+    z-index: 11;
+    font-family: helvetica;
+    color: red;
+    display: none;
+}
+/* 
+#cardcover {
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 436px;
+    top: 293px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 12;  
+    display: block;
+} */
+
+.card-1 {
+position: absolute;
+width: 568px;
+height: 314px;
+left: 436px;
+top: 293px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+border-radius: 20px;
+z-index: 10;
+}
+
+.card-2 {
+
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 531.52px;
+    top: 261.36px;
+    z-index: 9; 
+    background: #F13E3E;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(6.71deg);
+}
+
+
+.card-3 {
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 358.16px;
+    top: 377.09px;
+    
+    background: #FF6565;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(-12.84deg);
+    z-index: 8;
+}
+
+.card-4 {
+
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 473.88px;
+    top: 226px;
+    z-index: 7;
+    background: #FF9B9B;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(1.07deg);
+}
+
+.card-5 {
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 425.81px;
+    top: 172px;
+    z-index: 6;
+    background: #FFBFBF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(16.05deg);
+}
+
+.card-6 {
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 325.81px;
+    top: 302px;
+    z-index: 5;
+    background: #fddddd;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(10.05deg);
+}
+.card-7 {
+    position: absolute;
+    width: 568px;
+    height: 314px;
+    left: 698.3px;
+    top: 174px;
+    z-index: 4;
+    background: #FFEFEF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    transform: rotate(28.81deg);
+}
+.card-8 {
+ 
+position: absolute;
+width: 568px;
+height: 314px;
+left: 439px;
+top: 320.17px;
+z-index: 3;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.45);
+border-radius: 20px;
+transform: rotate(-47.01deg);
+}
+
+#questionbox {
+    position: absolute;
+    width: 783px;
+    height: 40px;
+    left: 329px;
+    top: 106px;
+    font-size: 25px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 80px;  
+    resize: none;
+    font-family: helvetica;
+    padding-top: 15px;
+    padding-left: 20px;
+    z-index: 20;
+}
+
+#text1 {
+    font-size: 15px;
+    border: 2px solid #000000;
+    border-radius: 40px;  
+}
+
+::placeholder {
+    font-family: helvetica;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    border-radius: 40px;
+}
+
+#enter {
+    position: relative;
+    top: 120px;
+    left: 73%;
+    background: none;
+    border: none;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 15;
+    letter-spacing: 1px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.hand-cursor {
+    position: relative;
+   width: 220px;
+   height: 300px;
+    z-index: 20;
+    opacity: 0.9;
+  }
+  #cursor{
+      position: absolute;
+      z-index: 20;
+      pointer-events: none;
+  
+  }
